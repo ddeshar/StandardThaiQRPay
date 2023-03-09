@@ -44,7 +44,7 @@ def generateQR():
         }), 400
         
     # Set the mobile number for the payment
-    mobileNumber = '0840868074'
+    mobileNumber = '0000000000'
     # Generate the QR code payload with the mobile number and amount
     payload = qrcode.generate_payload(mobileNumber, amount=amount)
     # Create the QR code image from the payload
